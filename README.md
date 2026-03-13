@@ -32,15 +32,20 @@ Before starting:
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-- [Essential System Tools](#essential-system-tools)
+- [Windows 11](#windows-11)
+- [Microsoft Office 365](#microsoft-office-365)
+- [Windows Utility by Chris Titus Tech](#windows-utility-by-chris-titus-tech)
 - [Browsers](#browsers)
-- [Productivity Software](#productivity-software)
-- [Download Managers](#download-managers)
+- [Warp VPN by Cloudflare](#warp-vpn-by-cloudflare)
+- [qBittorrent](#qbittorrent)
+- [Internet Download Manager (IDM)](#internet-download-manager-idm)
+- [WinRAR](#winrar)
 - [System Utilities](#system-utilities)
-- [Development Tools](#development-tools)
-- [Media and Entertainment](#media-and-entertainment)
-- [Network and VPN](#network-and-vpn)
-- [Graphics and Drivers](#graphics-and-drivers)
+- [Spotify (Ad-Free with SpotX)](#spotify-ad-free-with-spotx)
+- [VLC Media Player](#vlc-media-player)
+- [Visual Studio Code](#visual-studio-code)
+- [NVIDIA App](#nvidia-app)
+- [MSI Afterburner](#msi-afterburner)
 - [How to Run PowerShell Scripts](#how-to-run-powershell-scripts)
 - [Troubleshooting](#troubleshooting)
 - [Frequently Asked Questions](#frequently-asked-questions)
@@ -55,9 +60,7 @@ To open PowerShell as Administrator:
 2. Select "Terminal (Admin)" or "PowerShell (Admin)"
 3. Click "Yes" when prompted for permission
 
-## Essential System Tools
-
-### Windows 11
+## Windows 11
 
 The latest operating system by Microsoft with modern design, improved performance, and enhanced security features.
 
@@ -73,37 +76,7 @@ Activate Windows 11 to unlock all features and remove watermark using the Micros
 irm https://get.activated.win | iex
 ```
 
-### Windows Utility by Chris Titus Tech
-
-An all-in-one tool for debloating Windows, optimizing performance, applying privacy tweaks, and installing common software with one click.
-
-```powershell
-iwr -useb https://christitus.com/win | iex
-```
-
-## Browsers
-
-### Google Chrome
-
-The most popular browser by Google. Fast, syncs with Google account, and supports thousands of extensions.
-
-| Resource | Link |
-|----------|------|
-| Official Download | [Download Chrome](https://www.google.com/chrome/what-you-make-of-it/) |
-
-### Brave Browser (Recommended)
-
-Privacy-focused browser with built-in ad blocking and tracker protection. Faster browsing with reduced data usage.
-
-| Resource | Link |
-|----------|------|
-| Official Download | [Download Brave](https://brave.com/download/) |
-
-**Why Brave?** Built-in ad blocker and privacy features without requiring extensions.
-
-## Productivity Software
-
-### Microsoft Office 365
+## Microsoft Office 365
 
 Essential office suite including Word, Excel, PowerPoint, Outlook, and more. Required for professional and academic work.
 
@@ -119,9 +92,51 @@ Activate Office 365 to unlock full features:
 irm https://get.activated.win | iex
 ```
 
-## Download Managers
+## Windows Utility by Chris Titus Tech
 
-### Internet Download Manager (IDM)
+An all-in-one tool for debloating Windows, optimizing performance, applying privacy tweaks, and installing common software with one click.
+
+```powershell
+iwr -useb https://christitus.com/win | iex
+```
+
+## Browsers
+
+### Brave Browser (Recommended)
+
+Privacy-focused browser with built-in ad blocking and tracker protection. Faster browsing with reduced data usage.
+
+| Resource | Link |
+|----------|------|
+| Official Download | [Download Brave](https://brave.com/download/) |
+
+**Why Brave?** Built-in ad blocker and privacy features without requiring extensions.
+
+### Google Chrome
+
+The most popular browser by Google. Fast, syncs with Google account, and supports thousands of extensions.
+
+| Resource | Link |
+|----------|------|
+| Official Download | [Download Chrome](https://www.google.com/chrome/what-you-make-of-it/) |
+
+## Warp VPN by Cloudflare
+
+Free VPN service by Cloudflare that encrypts internet connection and protects privacy. Fast, reliable, and privacy-focused.
+
+| Resource | Link |
+|----------|------|
+| Download | [Download Warp VPN](https://filecr.com/windows/warp-vpn-by-cloudflare/) |
+
+## qBittorrent
+
+Free and open-source torrent client with no ads. Efficient for downloading large files through BitTorrent protocol.
+
+| Resource | Link |
+|----------|------|
+| Official Download | [Download qBittorrent](https://www.qbittorrent.org/download) |
+
+## Internet Download Manager (IDM)
 
 Accelerates downloads by up to 5x, supports pause/resume, download scheduling, and video grabbing from websites.
 
@@ -135,13 +150,19 @@ Accelerates downloads by up to 5x, supports pause/resume, download scheduling, a
 irm https://coporton.com/ias | iex
 ```
 
-### qBittorrent
+## WinRAR
 
-Free and open-source torrent client with no ads. Efficient for downloading large files through BitTorrent protocol.
+File compression and extraction tool supporting ZIP, RAR, 7Z, and other archive formats.
 
 | Resource | Link |
 |----------|------|
-| Official Download | [Download qBittorrent](https://www.qbittorrent.org/download) |
+| Official Download | [Download WinRAR](https://www.rarlab.com/download.htm) |
+
+**WinRAR Activation Script**
+
+```powershell
+irm https://naeembolchhi.github.io/WinRAR-Activator/WRA.ps1 | iex
+```
 
 ## System Utilities
 
@@ -154,15 +175,6 @@ Automatically finds and updates outdated drivers with one click. Drivers enable 
 | Official Download | [Download Driver Booster](https://www.iobit.com/en/driver-booster.php) |
 | Free License | [Get License Key](https://techno360.in/driver-booster-13-pro-free-license/) |
 
-### Advanced SystemCare
-
-All-in-one PC optimization tool that cleans junk files, fixes registry errors, and improves system performance.
-
-| Resource | Link |
-|----------|------|
-| Official Download | [Download Advanced SystemCare](https://www.iobit.com/en/advancedsystemcarefree.php) |
-| Free License | [Get License Key](https://techno360.in/advanced-systemcare-19-pro-free-license/) |
-
 ### IObit Uninstaller
 
 Completely removes programs along with leftover files and registry entries. More thorough than Windows built-in uninstaller.
@@ -172,6 +184,15 @@ Completely removes programs along with leftover files and registry entries. More
 | Official Download | [Download IObit Uninstaller](https://www.iobit.com/en/advanceduninstaller.php) |
 | Free License | [Get License Key](https://techno360.in/iobit-uninstaller-15-pro-free-license/) |
 
+### Advanced SystemCare
+
+All-in-one PC optimization tool that cleans junk files, fixes registry errors, and improves system performance.
+
+| Resource | Link |
+|----------|------|
+| Official Download | [Download Advanced SystemCare](https://www.iobit.com/en/advancedsystemcarefree.php) |
+| Free License | [Get License Key](https://techno360.in/advanced-systemcare-19-pro-free-license/) |
+
 ### Microsoft PowerToys
 
 Official Microsoft utilities that enhance Windows productivity. Includes FancyZones (window layouts), PowerRename (bulk rename), Color Picker, Image Resizer, and more.
@@ -180,19 +201,7 @@ Official Microsoft utilities that enhance Windows productivity. Includes FancyZo
 |----------|------|
 | Official Download | [Download PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) |
 
-## Development Tools
-
-### Visual Studio Code
-
-Free, lightweight code editor by Microsoft. Supports all programming languages with thousands of extensions, built-in Git support, and intelligent code completion.
-
-| Resource | Link |
-|----------|------|
-| Official Download | [Download VS Code](https://code.visualstudio.com/download) |
-
-## Media and Entertainment
-
-### Spotify (Ad-Free with SpotX)
+## Spotify (Ad-Free with SpotX)
 
 World's most popular music streaming service. SpotX modification removes ads from the free version.
 
@@ -208,7 +217,7 @@ Run after installing Spotify:
 iex "& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/SpotX/refs/heads/main/run.ps1') } -new_theme"
 ```
 
-### VLC Media Player
+## VLC Media Player
 
 Universal media player that plays virtually any audio or video format without additional codecs.
 
@@ -216,33 +225,15 @@ Universal media player that plays virtually any audio or video format without ad
 |----------|------|
 | Official Download | [Download VLC](https://www.videolan.org/vlc/download-windows.html) |
 
-### WinRAR
+## Visual Studio Code
 
-File compression and extraction tool supporting ZIP, RAR, 7Z, and other archive formats.
-
-| Resource | Link |
-|----------|------|
-| Official Download | [Download WinRAR](https://www.rarlab.com/download.htm) |
-
-**WinRAR Activation Script**
-
-```powershell
-irm https://naeembolchhi.github.io/WinRAR-Activator/WRA.ps1 | iex
-```
-
-## Network and VPN
-
-### Warp VPN by Cloudflare
-
-Free VPN service by Cloudflare that encrypts internet connection and protects privacy. Fast, reliable, and privacy-focused.
+Free, lightweight code editor by Microsoft. Supports all programming languages with thousands of extensions, built-in Git support, and intelligent code completion.
 
 | Resource | Link |
 |----------|------|
-| Download | [Download Warp VPN](https://filecr.com/windows/warp-vpn-by-cloudflare/) |
+| Official Download | [Download VS Code](https://code.visualstudio.com/download) |
 
-## Graphics and Drivers
-
-### NVIDIA App
+## NVIDIA App
 
 Official NVIDIA application for managing graphics cards. Updates GPU drivers, optimizes game settings, and enables gameplay recording.
 
@@ -252,7 +243,7 @@ Official NVIDIA application for managing graphics cards. Updates GPU drivers, op
 |----------|------|
 | Official Download | [Download NVIDIA App](https://www.nvidia.com/en-in/software/nvidia-app/) |
 
-### MSI Afterburner
+## MSI Afterburner
 
 Real-time system monitoring tool that displays FPS, GPU temperature, CPU usage, and RAM usage as an on-screen overlay. Also supports graphics card overclocking.
 
